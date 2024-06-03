@@ -1,3 +1,5 @@
+"use strict";
+
 class Vehicle {
     _make = "Renault";
     _model = "Clio";
