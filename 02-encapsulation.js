@@ -42,7 +42,7 @@ class Car {
     displayCarData() {
         alert(_make + " " + _model + " " + _year + " " + _color);
     }
-}
+};
 
 let myCar = new Car();
 myCar.setColor("Black");
