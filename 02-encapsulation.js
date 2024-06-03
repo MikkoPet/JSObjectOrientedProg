@@ -1,12 +1,11 @@
 "use strict";
 
 class Car {
-    constructor() {
-    this._make = "Renault";
-    this._model = "Clio";
-    this._year = "2020";
-    this._color = "Red";
-    }
+    _make = "Renault";
+    _model = "Clio";
+    _year = "2020";
+    _color = "Red";
+    
 
     setMake(make) {
         this._make = make;
