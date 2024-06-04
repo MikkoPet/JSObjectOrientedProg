@@ -1,9 +1,9 @@
 "use strict";
 
 class Vehicle {
-    _make = "Renault";
-    _model = "Clio";
-    _year = "2020";    
+    _make;
+    _model;
+    _year;    
 
     setMake(make) {
         this._make = make;
@@ -32,7 +32,7 @@ class Vehicle {
 };
 
 class Car extends Vehicle {
-    _color = "Red"
+    _color;
 
     getColor() {
         return this._color;
