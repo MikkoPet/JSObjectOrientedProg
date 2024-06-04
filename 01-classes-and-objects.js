@@ -9,9 +9,9 @@ class Car {
     }
 
     displayCarData() {
-        alert(make + " " + model + " " + year + " " + color);
+        alert(this.make + " " + this.model + " " + this.year + " " + this.color);
     }
 };
 
 let myCar = new Car("Renault", "Clio", "2020", "Red");
-myCar.displayCarData;
+myCar.displayCarData();
