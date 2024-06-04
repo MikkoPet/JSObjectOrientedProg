@@ -1,10 +1,11 @@
 "use strict";
 
 class Car {
-    _make = "Renault";
-    _model = "Clio";
-    _year = "2020";
-    _color = "Red";
+
+    _make;
+    _model;
+    _year;
+    _color;
     
 
     setMake(make) {
@@ -40,7 +41,7 @@ class Car {
     }
 
     displayCarData() {
-        alert(_make + " " + _model + " " + _year + " " + _color);
+        alert(this._make + " " + this._model + " " + this._year + " " + this._color);
     }
 };
 
